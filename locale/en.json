@@ -1,0 +1,14 @@
+{
+  "locale": "en",
+  "title": "Sample of multi-language page",
+  "content": "<strong>Lorem ipsum dolor sit amet</strong>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate",
+  "nav": {
+    "brand": "Sample",
+    "home": "Home",
+    "dropdown": "Dropdown",
+    "item1": "Item1",
+    "item2": "Item2",
+    "item3": "Item3"
+  }
+
+}

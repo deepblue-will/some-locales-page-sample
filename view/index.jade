@@ -1,0 +1,31 @@
+doctype html
+
+html(lang="#{locale}")
+  head
+    title #{title}
+    link(rel="stylesheet", href="../bower_components/bootstrap/dist/css/bootstrap.css")
+  body
+
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+          a.navbar-brand #{nav.brand}
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li.active: a #{nav.home}
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown", role="button", aria-expanded="false")
+                | #{nav.dropdown}
+                span.caret
+              ul.dropdown-menu
+                li: a #{nav.item1}
+                li: a #{nav.item2}
+                li: a #{nav.item3}
+
+    .container
+      .jumbotron
+        h1 #{title}
+        p !{content}
+
+    script(src="../bower_components/jquery/dist/jquery.min.js")
+    script(src="../bower_components/bootstrap/dist/js/bootstrap.min.js")
