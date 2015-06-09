@@ -1,0 +1,20 @@
+{
+  "name": "some-locales-page-sample",
+  "version": "0.0.1",
+  "homepage": "https://github.com/deepblue-will/some-locales-page-sample",
+  "authors": [
+    "deepblue_will <deepblue.will@gmail.com>"
+  ],
+  "description": "some locales page sample",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.4"
+  }
+}
